@@ -4,6 +4,7 @@ var morgan = require('morgan');
 var app = express();
 const port = 3000;
 var handlebars = require('express-handlebars');
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 // HTTP logger
