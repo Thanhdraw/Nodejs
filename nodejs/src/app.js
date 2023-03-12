@@ -20,13 +20,9 @@ app.set('views', path.join(__dirname, 'resources/views'));
 // console.log('PATH: ',path.join(__dirname, 'resources/views'));
 
 //route
-
-
 route(app);
 
-// app.get('/news', (req, res) => {
-//   res.render('news');
-// });
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port http://localhost:${port}`)
