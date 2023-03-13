@@ -5,8 +5,7 @@ const newControllers = require('../app/controllers/NewsControllers');
 
 // newControllers.index();
 
-router.use('/:details',newControllers.show);
-router.use('/',newControllers.index);
-
+router.use('/:details', newControllers.show);
+router.use('/', newControllers.index);
 
 module.exports = router;
