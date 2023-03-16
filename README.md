@@ -1,2 +1,2 @@
 # Nodejs
-my main project is located in Nodejs folder
+my main project is located in nodejs folder
