@@ -1,3 +1,40 @@
-<h1>
-    HOME PAGES
-</h1>
+<div class="mt-4" style="margin: 0 20px;">
+    <div class="row">
+
+
+        {{#each courses}}
+        <div class="col-sm-6 col-lg-3">
+            <div class="card card-courses-item">
+                <img class="card-img-top" src="{{this.img}}" alt="{{this.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{this.name}}</h5>
+                    <p class="card-text">{{this.Description}}</p>
+                    <a href="#" class="btn btn-primary">Mua khóa học</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-3">
+            <div class="card">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
