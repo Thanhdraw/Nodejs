@@ -17,6 +17,16 @@ class CourseController {
 
         // res.send('COURSES DETAILS  -'+req.params.details);
     }
+
+
+    // Creat course
+    create(req, res,next) {
+        res.render('courses/create');
+    }
+    // [POST] method /courses/store
+    store(req, res,next) {
+        res.json(req.body);
+    }
 }
 
 module.exports = new CourseController();
